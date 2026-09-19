@@ -1,6 +1,6 @@
 # azure-unixbicep
 
-Bicep translation of [`sanservices/terraform-ec2-fleets`](https://github.com/sanservices/terraform-ec2-fleets) — common IaC to rehost on-prem VMs as Azure VM fleets.
+Bicep translation of — common IaC to rehost on-prem VMs as Azure VM fleets.
 
 Each application is one entry in `fleets`; the module produces an NSG + a managed identity + an internal Standard Load Balancer + a Flexible VMSS + a Private DNS A record + a per-fleet artifact container.
 
